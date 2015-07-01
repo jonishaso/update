@@ -1,0 +1,23 @@
+{
+    "name":"updateDownloadMirror"
+  , "version":"0.0.1"
+  , "description":"this http server provide download link address only. "
+  , "homepage":""
+  , "main":"index.js"
+  , "bugs":{
+            "email":"gaoteng@lightsurfing.com"
+            }
+  , "author":{
+               "name":"Gorden Gao"
+             , "email":"gaoteng@lightsurfing.com"
+            }
+  , "config":{
+              "portNO":"8008"
+            }
+  , "dependencies":
+              {
+            
+                "express":"4.12.X"
+               ,"mongoose":"4.0.X"
+              }
+}

@@ -1,0 +1,53 @@
+/*var a
+var a;
+var b = Number(a);
+console.log(typeof(b));
+console.log(b);
+console.log(a);
+
+lock = true;
+var a = [1,2,3,4,5,6,7,8,9,1,1,1];
+var b ;
+// setInterval(clean,5*1000);
+function clean()
+{
+	lock = false;
+	console.log(a.length);
+	for(var i = 0; i < 32*a.length; i++)
+	{
+		a.pop();
+	}
+	if(a.length == 0)
+	{
+		lock = true;
+		console.log("finish deleting ");
+	}
+}
+
+// setInterval(add,1*1000);
+function add()
+{
+	if(lock == true)
+	{		
+		a.push(0);
+		console.log(a);
+	}
+	else{
+		console.log("this is adding action" + a);
+	}
+}
+
+
+function encry(l){
+	var tmp = [];
+	for (var i =0; i < l.length ; i++){
+		tmp[i] = l[i] + 8;
+	}
+	return tmp;
+}
+
+b= encry(a);
+console.log(b);
+console.log(tmp);
+*/
+
